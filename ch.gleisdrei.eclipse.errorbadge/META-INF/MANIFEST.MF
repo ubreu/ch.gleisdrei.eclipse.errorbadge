@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Error Badge
+Bundle-SymbolicName: ch.gleisdrei.eclipse.errorbadge;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: ch.gleisdrei.eclipse.error.badge.Activator
+Bundle-Vendor: Gleisdrei
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources;bundle-version="3.7.100",
+ org.apache.commons.lang;bundle-version="2.4.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
